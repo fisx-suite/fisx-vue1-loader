@@ -29,7 +29,7 @@ module.exports = exports = {
     compile: function (filePath, content, options) {
         var assign = require('object-assign');
         var opts = assign({}, options, {
-            scopedCssPrefix: '_v-',
+            scopedCssPrefix: options.scopedCssPrefix || '_v-',
             hotReloadUpdateCode: generateHotReloadUpdateCode,
             hostPkgName: require('./package.json').name
         });
