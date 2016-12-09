@@ -9,8 +9,8 @@ function generateHotReloadUpdateCode(id) {
     return '    hotAPI.update("' + id + '", __vue__options__, __vue__options__.template)\n';
 }
 
-function getPostTemplateHandler(opts) {
-    var handler = opts.postTemplate;
+function getTemplatePreprocessor(opts) {
+    var handler = opts.preprocessor;
     var rewriter = require('./lib/template-rewrite');
     if (typeof handler !== 'function') {
         return rewriter;
@@ -36,7 +36,7 @@ module.exports = exports = {
 
         opts.template = assign(opts.template || {}, {
             compileToRender: false,
-            postTemplate: getPostTemplateHandler(opts.template || {})
+            preprocessor: getTemplatePreprocessor(opts.template || {})
         });
         var parser = require('./lib/parser');
         var parts = vueCompilerCore.parse(filePath, content, parser);
