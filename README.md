@@ -1,6 +1,5 @@
-fisx-vue1-loader
+fisx-vue1-loader [![NPM Version](https://img.shields.io/npm/v/fisx-vue1-loader.svg?style=flat)](https://npmjs.org/package/fisx-vue1-loader)
 ======
-[![Dependency Status](https://david-dm.org/wuhy/fisx-vue1-loader.svg)](https://david-dm.org/wuhy/fisx-vue1-loader) [![devDependency Status](https://david-dm.org/wuhy/fisx-vue1-loader/dev-status.svg)](https://david-dm.org/wuhy/fisx-vue1-loader#info=devDependencies) [![NPM Version](https://img.shields.io/npm/v/fisx-vue1-loader.svg?style=flat)](https://npmjs.org/package/fisx-vue1-loader)
 
 > The vue 1.x compiler for fisx. 
 
