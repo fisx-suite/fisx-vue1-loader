@@ -11,6 +11,6 @@ fisx-vue1-loader [![NPM Version](https://img.shields.io/npm/v/fisx-vue1-loader.s
 npm install fisx-vue1-loader --save-dev
 ```
 
-The loader depends on [vue-compiler-core](https://github.com/wuhy/vue-compiler-core), the detail usage you can refer it. If you using vue 2.x, please use [fisx-vue-loader](https://github.com/wuhy/fisx-vue-loader) instead.
+The loader depends on [vue-compiler-core](https://github.com/wuhy/vue-compiler-core), the detail usage you can refer it. If you are using vue 2.x, please use [fisx-vue-loader](https://github.com/wuhy/fisx-vue-loader) instead.
 
-Using [fisx-parser-vue](https://github.com/wuhy/fisx-parser-vue) to parse the vue file in `fisx` build environment.
+Using [fisx-parser-vue](https://github.com/wuhy/fisx-parser-vue) to parse the vue file in [fisx](https://github.com/wuhy/fisx) build environment.
