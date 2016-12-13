@@ -1,7 +1,7 @@
 {
   "name": "fisx-vue1-loader",
   "version": "0.1.0",
-  "description": "The Vue1 loader",
+  "description": "The Vue1.x loader for fisx",
   "main": "index.js",
   "keywords": [
     "fisx",
