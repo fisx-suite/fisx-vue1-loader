@@ -8,10 +8,10 @@ describe('Vue2 Loader', function () {
         var content = fs.readFileSync(filePath).toString();
         var result = loader.compile(filePath, content, {
             script: {
-                lang: 'babel'
+                // lang: 'babel'
             },
             sourceMap: true
         });
-        console.log(result);
+        // console.log(result);
     });
 });
