@@ -1,6 +1,6 @@
 {
   "name": "fisx-vue1-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Vue1.x loader for fisx",
   "main": "index.js",
   "keywords": [
@@ -26,7 +26,7 @@
     "parse5": "^2.2.3",
     "vue-hot-reload-api": "^1.3.3",
     "vue-template-validator": "^1.1.5",
-    "vue-compiler-core": "^0.1.0"
+    "vue-compiler-core": "^0.1.3"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
