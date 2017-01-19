@@ -50,7 +50,7 @@ function getInsertCssLibDir() {
 var hotReloadApiDir = null;
 function getHotReloadApiDir() {
     if (hotReloadApiDir != null) {
-        return insertCssLibDir;
+        return hotReloadApiDir;
     }
 
     var pkgName = require('./package.json').name;
